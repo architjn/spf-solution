@@ -1,0 +1,40 @@
+{
+	"name": "spf-solution",
+	"version": "0.0.1",
+	"description": "One stop solution for all SPF Problems. This package includes fetching of spf record, parsing the provided/fetched record, validation of SPF record, generating a new SPF record",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/architjn/spf-solution.git"
+	},
+	"keywords": [
+		"dmarc",
+		"dkim",
+		"email",
+		"mail",
+		"spf",
+		"record",
+		"parser",
+		"txt",
+		"dns",
+		"generator",
+		"report"
+	],
+	"author": "Archit Jain",
+	"license": "ISC",
+	"maintainers": [
+		{
+			"name": "Archit Jain",
+			"email": "architjn93@gmail.com"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/architjn/spf-solution/issues"
+	},
+	"dependencies": {
+		"email-validator": "^2.0.4"
+	}
+}
